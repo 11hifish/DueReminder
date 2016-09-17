@@ -56,5 +56,10 @@ class SecondViewController: UIViewController, UIPickerViewDelegate, UIPickerView
         // Pass the selected object to the new view controller.
     }
     */
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        print(segue.destinationViewController)
+        let Destination : ThirdViewController = segue.destinationViewController as! ThirdViewController
+        Destination.MyAndrewIDText = andrewidText.text!
+    }
 
 }

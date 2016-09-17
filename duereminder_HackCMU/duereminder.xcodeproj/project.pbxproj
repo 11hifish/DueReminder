@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E5C6DBF01D8D1CD00009671C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C6DBEF1D8D1CD00009671C /* SecondViewController.swift */; };
+		E5C6DBF21D8D81840009671C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C6DBF11D8D81840009671C /* ThirdViewController.swift */; };
+		E5C6DBF41D8D9B790009671C /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C6DBF31D8D9B790009671C /* FourthViewController.swift */; };
+		E5E8BE861D8DD1E500BF3CDD /* DuesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E8BE851D8DD1E500BF3CDD /* DuesManager.swift */; };
+		E5E8BE881D8DD2DE00BF3CDD /* DueObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E8BE871D8DD2DE00BF3CDD /* DueObject.swift */; };
+		E5E8BE8A1D8DD6D300BF3CDD /* DueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E8BE891D8DD6D300BF3CDD /* DueCell.swift */; };
+		E5E8BE8C1D8DDF3A00BF3CDD /* AndrewIDRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E8BE8B1D8DDF3A00BF3CDD /* AndrewIDRequest.swift */; };
 		E5EDE74C1D8CF85800ABCA1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EDE74B1D8CF85800ABCA1E /* AppDelegate.swift */; };
 		E5EDE74E1D8CF85800ABCA1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EDE74D1D8CF85800ABCA1E /* ViewController.swift */; };
 		E5EDE7511D8CF85800ABCA1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EDE74F1D8CF85800ABCA1E /* Main.storyboard */; };
@@ -17,6 +23,12 @@
 
 /* Begin PBXFileReference section */
 		E5C6DBEF1D8D1CD00009671C /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E5C6DBF11D8D81840009671C /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		E5C6DBF31D8D9B790009671C /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		E5E8BE851D8DD1E500BF3CDD /* DuesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuesManager.swift; sourceTree = "<group>"; };
+		E5E8BE871D8DD2DE00BF3CDD /* DueObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DueObject.swift; sourceTree = "<group>"; };
+		E5E8BE891D8DD6D300BF3CDD /* DueCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DueCell.swift; sourceTree = "<group>"; };
+		E5E8BE8B1D8DDF3A00BF3CDD /* AndrewIDRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndrewIDRequest.swift; sourceTree = "<group>"; };
 		E5EDE7481D8CF85800ABCA1E /* duereminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = duereminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5EDE74B1D8CF85800ABCA1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5EDE74D1D8CF85800ABCA1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,10 +71,16 @@
 				E5EDE74B1D8CF85800ABCA1E /* AppDelegate.swift */,
 				E5EDE74D1D8CF85800ABCA1E /* ViewController.swift */,
 				E5EDE74F1D8CF85800ABCA1E /* Main.storyboard */,
+				E5E8BE851D8DD1E500BF3CDD /* DuesManager.swift */,
+				E5E8BE871D8DD2DE00BF3CDD /* DueObject.swift */,
+				E5E8BE891D8DD6D300BF3CDD /* DueCell.swift */,
+				E5E8BE8B1D8DDF3A00BF3CDD /* AndrewIDRequest.swift */,
 				E5C6DBEF1D8D1CD00009671C /* SecondViewController.swift */,
 				E5EDE7521D8CF85800ABCA1E /* Assets.xcassets */,
 				E5EDE7541D8CF85800ABCA1E /* LaunchScreen.storyboard */,
 				E5EDE7571D8CF85800ABCA1E /* Info.plist */,
+				E5C6DBF11D8D81840009671C /* ThirdViewController.swift */,
+				E5C6DBF31D8D9B790009671C /* FourthViewController.swift */,
 			);
 			path = duereminder;
 			sourceTree = "<group>";
@@ -139,8 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5C6DBF01D8D1CD00009671C /* SecondViewController.swift in Sources */,
+				E5E8BE8C1D8DDF3A00BF3CDD /* AndrewIDRequest.swift in Sources */,
 				E5EDE74E1D8CF85800ABCA1E /* ViewController.swift in Sources */,
+				E5E8BE861D8DD1E500BF3CDD /* DuesManager.swift in Sources */,
+				E5C6DBF21D8D81840009671C /* ThirdViewController.swift in Sources */,
+				E5E8BE881D8DD2DE00BF3CDD /* DueObject.swift in Sources */,
 				E5EDE74C1D8CF85800ABCA1E /* AppDelegate.swift in Sources */,
+				E5E8BE8A1D8DD6D300BF3CDD /* DueCell.swift in Sources */,
+				E5C6DBF41D8D9B790009671C /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
