@@ -14,10 +14,10 @@ class DuesManager: NSObject {
     var dueArray = [DueObject]()
     override init() {
         super.init()
-        let due1 = DueObject(courseNO: 12345, courseName: "haha", dueContent: "none", enrollmentStatus: "Student")
-        let due2 = DueObject(courseNO: 54632, courseName: "meow", dueContent: "none",enrollmentStatus: "Student")
-        dueArray.append(due1)
-        dueArray.append(due2)
+//        let due1 = DueObject(courseNO: 12345, courseName: "haha", dueContent: "none", enrollmentStatus: "Student")
+//        let due2 = DueObject(courseNO: 54632, courseName: "meow", dueContent: "none",enrollmentStatus: "Student")
+//        dueArray.append(due1)
+//        dueArray.append(due2)
     }
 
 }
