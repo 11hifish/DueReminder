@@ -12,17 +12,39 @@ def addUser(andrewid,username):
     
 def getuserInfo(andrewid):
     if andrewid in userdict:
-        return (andrewid, userdict[andrewid])
+        return (userdict[andrewid])
     else:
         return "No user found!"
         
 def addcourse(andrewid, coursecode):
-    userdict[andrewid] += [coursecode, coursedict[coursecode]]
+    if len(userdict[andrewid]) == 1:
+        userdict[andrewid].append([(coursecode, coursedict[coursecode])])
+    else:
+        userdict[andrewid][1].append((coursecode, coursedict[coursecode]))
     return (userdict[andrewid])
     
-addUser("xingshew", "Xingsheng Wang")
-addcourse("xingshew", 15112)
-addcourse("xingshew", 18100)
-addcourse("xingshew", 21259)
+def removeCourse(andrewid, coursecode):
+    userdict[andrewid][1].remove((coursecode, coursedict[coursecode]))
+    return (userdict[andrewid])
+
+duedict = dict()
+def addDue(coursecode, dueDate, homeworkName, handinType):
+    duedict[coursecode] += [(dueDate, homeworkName, handinType)]
+
+def getduedate(coursecode):
+    if coursecode in duedict:
+        return duedict[coursecode]
+    else:
+        return "No Course found!"
+    
+addUser("xingshew","Xingsheng Wang")
 print(getuserInfo("xingshew"))
+addcourse("xingshew",15112)
+print(getuserInfo("xingshew"))
+addcourse("xingshew",21259)
+print(getuserInfo("xingshew"))
+addDue(15112, "Sept.23rd","Written1", "recitation")
+print(getduedate("xingshew"))
+
+     
     
